@@ -1,0 +1,66 @@
+body{
+	font-family: "Verdana", sans-serif;
+	background-image: url(back7.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+h1{
+	color: pink;
+	text-align: center;
+}
+h2{
+	color: yellow;
+	font-style: italic;
+	text-align: center;
+}
+h3{
+	color: blue;
+	text-align: center;
+	font-size: bold;
+}
+h4{
+	color: red;
+	text-align: center;
+	font-size: bold;
+}
+h5{
+color: green;
+text-align: center;	
+	
+}
+#nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;	
+}
+#nav ul li{
+	display:inline;
+	margin-bottom: 0.5cm;
+	margin-top: 0.5cm;
+}
+#nav ul li a{
+	text-decoration: none;
+	color: red;
+	margin-left: 0.5cm;
+	margin-right: 0.5cm;
+}
+#nav ul li a:hover{
+	color: yellow;
+}
+img{
+	border: 4px solid yellow;
+	border-radius: 8px;
+}
+.product{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 0.5cm;
+}
+p{
+	font-style: italic;
+	text-align: center;
+}
