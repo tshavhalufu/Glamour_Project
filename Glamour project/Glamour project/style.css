@@ -1,66 +1,136 @@
-body{
-	font-family: "Verdana", sans-serif;
-	background-image: url(back7.JPG);
-	background-size: cover;
-	background-repeat: no-repeat;
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Verdana", sans-serif;
+  background: linear-gradient(to top, rgb(0, 0, 0.5, 0.8), rgb(0, 0, 0.5, 0.8));
+  background-image: url(images/glamorLogo.png);
+  opacity: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-h1{
-	color: pink;
-	text-align: center;
+.nav {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background-color: rgb(140, 140, 163, 0.5);
 }
-h2{
-	color: yellow;
-	font-style: italic;
-	text-align: center;
+.logo {
+  color: greenyellow;
+  padding: 10px;
+  padding-left: 20px;
+  font-size: 30px;
+  font-family: Arial;
 }
-h3{
-	color: blue;
-	text-align: center;
-	font-size: bold;
+.hearder__options {
+  position: absolute;
+  float: left;
+  right: 0;
+  justify-content: flex-end;
+  align-content: space-between;
 }
-h4{
-	color: red;
-	text-align: center;
-	font-size: bold;
+ul {
+  list-style-type: none;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
-h5{
-color: green;
-text-align: center;	
-	
+ul li {
+  display: inline;
+  margin-left: 30px;
+  margin-right: 30px;
 }
-#nav ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	text-align: center;	
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  font-family: sans-serif;
 }
-#nav ul li{
-	display:inline;
-	margin-bottom: 0.5cm;
-	margin-top: 0.5cm;
+ul li a:hover {
+  color: yellow;
 }
-#nav ul li a{
-	text-decoration: none;
-	color: red;
-	margin-left: 0.5cm;
-	margin-right: 0.5cm;
+
+.welcome__page {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-evenly;
+  height: 550px;
 }
-#nav ul li a:hover{
-	color: yellow;
+.company__intro {
+  background-color: blue;
 }
-img{
-	border: 4px solid yellow;
-	border-radius: 8px;
+.sign__register {
+  background-color: pink;
+  position: relative;
+  width: 320px;
+  float: left;
 }
-.product{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	margin-bottom: 0.5cm;
+
+.heading__titles {
+  padding-top: 25px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-p{
-	font-style: italic;
-	text-align: center;
+
+.branches__location {
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 25px;
+}
+
+.company__motivation {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+/* h1 {
+  color: pink;
+  text-align: center;
+} */
+/* h2 {
+  color: yellow;
+  font-style: italic;
+  text-align: center;
+} */
+/* h3 {
+  color: blue;
+  text-align: center;
+  font-size: bold;
+}
+h4 {
+  color: red;
+  text-align: center;
+  font-size: bold;
+}
+h5 {
+  color: green;
+  text-align: center;
+} */
+
+img {
+  border: 4px solid yellow;
+  border-radius: 8px;
+}
+.product {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 0.5cm;
+}
+p {
+  font-style: italic;
+  text-align: center;
 }
